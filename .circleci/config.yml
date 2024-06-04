@@ -11,9 +11,7 @@ jobs:
       # Replace this with a real test runner invocation
       - run:
           name: Run tests
-          command: command: |
-            . venv/bin/activate
-            pytest
+          command: echo 'replace me with real tests!' && false
   build:
     docker:
       - image: cimg/base:stable
